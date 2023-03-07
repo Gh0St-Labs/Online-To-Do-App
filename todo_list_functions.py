@@ -8,7 +8,7 @@ def read_todos(filename_orpath=FILEPATH): # the syntax for creating a function i
 
 # so you replace something inside the code of a function, and the name of the replaced variable should be inside
 # the () in the def line, then while declaring the function inside the main code, we have to give whatever input
-# goes inside the replaced variable. refer if_you_dont_understand_funcs.py
+# goes inside the replaced variable. refer if_you_dont_understand_funcs.py.
 
 def write_todos(filepath,mode,garage):
     """Writes the items inside the Todolist"""

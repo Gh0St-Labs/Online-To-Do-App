@@ -14,7 +14,7 @@ def just_add_todo():
     # brackets. The Syntax is the same as above. First the program will be empty with the variable assigned. Once the user enters the input in the
     # input box, such as our case, the program stores the user's todo to the variable assigned
     # even if you give a key of an title function, or an write function, the program takes in the value given to the title or write function and stores it
-    # in the assigned variable.
+    # in the assigned variable
     todo_garage.append(entered_todo + '\n')
     func.write_todos('todolist.txt', 'w', todo_garage)
     # if you are wondering, why am I giving in writetodos before readtodos? that's because IT DOSEN'T MATTER. I've given writetodos in a function which
