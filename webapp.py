@@ -5,6 +5,7 @@ import todo_list_functions as func
 # we use pip freeze > requirements.txt to load all the extension files, but in reality, the freeze contains
 # all the extension files & we add and store them to a file called requirements.txt. This is a more safer
 # way.
+# use AMEND to commit small changes rather than selecting the whole bunch of files and changing each one of them.
 
 def just_add_todo():
     entered_todo = st.session_state['users_todo']
@@ -23,8 +24,9 @@ def just_add_todo():
 todo_garage = func.read_todos('todolist.txt')
 
 st.title("📜 Store all your To-Dos in one place with TO-DO HUT!")
-st.write("Add To-Dos and complete them by checking the box. Time to increase your Productivity! ")
-# st.subheader() ->> this creates a subheading with the text you give inside the brackets
+st.write("<~> Add To-Dos and complete them by checking the box. Time to increase your Productivity! ")
+st.write("<~> Check the To-Do Checkboxes to Complete / Remove them")
+# st.subheader() ->> this creates a subheading with the text you give inside the Brackets
 # st.write() ->> this creates a simple line of text that you give in
 # st.checkbox ->> creates a check box next to the text that you give in.
 # label creates a small text above the input box just for a silly reference.
