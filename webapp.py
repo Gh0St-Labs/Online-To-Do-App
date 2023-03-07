@@ -28,7 +28,7 @@ st.write("Add To-Dos and complete them by checking the box. Time to increase you
 # st.write() ->> this creates a simple line of text that you give in.
 # st.checkbox ->> creates a check box next to the text that you give in.
 # label creates a small text above the input box just for a silly reference.
-# the order of adding the element matters here. Such as in HTML.
+# the order of adding the element matters here. Such as in HTML
 
 for the_index, todo in enumerate(todo_garage):
     checkbox = st.checkbox(todo.title(), key=todo)

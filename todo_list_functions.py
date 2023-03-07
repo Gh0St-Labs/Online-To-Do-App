@@ -27,7 +27,7 @@ if __name__ == "__main__":
     print("For Dumb Nerds, this is what the if name main does. Of Course I learned it Dumbass! Hahahaha")
 
 # this is an if Statement where the __name__ changes according to the string value. In this case, it is equal to
-# a string called main, so this main acts like the int main() in C programming, but in python. So now, when this
+# a string called main, so this main acts like the int main() in c programming, but in python. So now, when this
 # file is imported using import statement, or imported using the from statement, anything above the if statement
 # will be imported and made to run, but everything under the if statement is basically just for
 # todo_list_functions.py file. If you run this file, you'll get the string "hello from function" and all the items
