@@ -12,7 +12,7 @@ def just_add_todo():
     # so as you can tell, the st.session_state is like recieving the input or text from the key 'users_todo' which is an text input type.
     # once it receives it, it stores it in the entered_todo variable. Session state creates an program in respect of the key given to it in the square
     # brackets. The Syntax is the same as above. First the program will be empty with the variable assigned. Once the user enters the input in the
-    # input box, such as our case, the program stores the user's todo to the variable assigned.
+    # input box, such as our case, the program stores the user's todo to the variable assigned
     # even if you give a key of an title function, or an write function, the program takes in the value given to the title or write function and stores it
     # in the assigned variable.
     todo_garage.append(entered_todo + '\n')

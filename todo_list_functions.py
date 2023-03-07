@@ -20,7 +20,7 @@ def write_todos(filepath,mode,garage):
 
 # now if you add this print function, and if you run todo_list.py, you will get "hello from function" in the top of
 # of the "type add, show, edit or complete". So if you don't want it to print it out, add the print function under
-# this code here.
+# this code here
 
 if __name__ == "__main__":
     print("Hello from function")
