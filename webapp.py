@@ -3,7 +3,7 @@ import todo_list_functions as func
 # the requirements.txt file is the file which is needed by the server to know what are the files to download
 # to deploy our website.
 # we use pip freeze > requirements.txt to load all the extension files, but in reality, the freeze contains
-# all the extension files and we add and store them to a file called requirements.txt. This is a more safer
+# all the extension files & we add and store them to a file called requirements.txt. This is a more safer
 # way.
 
 def just_add_todo():
