@@ -32,5 +32,5 @@ if __name__ == "__main__":
 # will be imported and made to run, but everything under the if statement is basically just for
 # todo_list_functions.py file. If you run this file, you'll get the string "hello from function" and all the items
 # inside the file.readlines() function, but when imported, the contents under the if statement will remain as such
-# and won't be executed, but everything above will be imported and made to run.
+# and won't be executed, but everything above will be imported and made to run
 # this can be used to test Different outputs.

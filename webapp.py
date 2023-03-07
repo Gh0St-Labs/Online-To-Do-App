@@ -25,7 +25,7 @@ todo_garage = func.read_todos('todolist.txt')
 st.title("📜 Store all your To-Dos in one place with TO-DO HUT!")
 st.write("Add To-Dos and complete them by checking the box. Time to increase your Productivity! ")
 # st.subheader() ->> this creates a subheading with the text you give inside the brackets
-# st.write() ->> this creates a simple line of text that you give in.
+# st.write() ->> this creates a simple line of text that you give in
 # st.checkbox ->> creates a check box next to the text that you give in.
 # label creates a small text above the input box just for a silly reference.
 # the order of adding the element matters here. Such as in HTML
