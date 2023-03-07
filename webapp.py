@@ -31,7 +31,7 @@ st.write("Add To-Dos and complete them by checking the box. Time to increase you
 # the order of adding the element matters here. Such as in HTML.
 
 for the_index, todo in enumerate(todo_garage):
-    checkbox = st.checkbox(todo.capitalize(), key=todo)
+    checkbox = st.checkbox(todo.title(), key=todo)
     # the reason for the key to be todo itself is because each and every key should be different
     # in order to remove. So each key is the Todo itself.
     # now the values in each of todos are false. If you now check the box, it becomes true. THAT'S HOW THIS WORKS.
